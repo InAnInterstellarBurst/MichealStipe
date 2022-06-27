@@ -1,0 +1,15 @@
+g++
+
+-Isrc/
+-Idep/dpp/include/
+-Idep/spdlog/include/
+
+-Wall
+-Wextra
+-Werror
+-Wno-unused-parameter
+
+-DDEBUG=1
+
+%cpp -std=c++20
+%hpp --include=src/pch.hpp

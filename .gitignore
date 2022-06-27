@@ -1,0 +1,5 @@
+bin/
+.ccls-cache/
+.idea/
+*.directory
+*.tok
